@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Advocate Supriya - Legal Portfolio
 
-## Getting Started
+A professional, SEO-optimized portfolio website for Advocate Supriya, specializing in legal services at Patna High Court.
 
-First, run the development server:
+## 🏛️ Legal Services
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Criminal Law** - Expert criminal defense and representation
+- **Service Matters** - Civil service and employment law
+- **Consumer Forum** - Consumer rights and protection
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **SEO Optimized** - Built for search engine visibility
+- **Mobile Responsive** - Works perfectly on all devices
+- **Dark/Light Mode** - User preference toggle
+- **Bilingual Support** - English and Hindi languages
+- **Contact Form** - Integrated EmailJS for client inquiries
+- **Professional Design** - Modern, clean interface
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technology Stack
 
-## Learn More
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Smooth animations
+- **EmailJS** - Contact form integration
+- **Lucide React** - Beautiful icons
 
-To learn more about Next.js, take a look at the following resources:
+## 📧 Contact Integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Automatic Email Sending** - Client inquiries sent directly to Advocate Supriya
+- **Professional Templates** - Structured email format
+- **Real-time Notifications** - Instant client communication
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 SEO Features
 
-## Deploy on Vercel
+- **Meta Tags** - Optimized for search engines
+- **Structured Data** - Schema.org markup
+- **Performance Optimized** - Fast loading times
+- **Mobile First** - Google-friendly design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Aadarsh2021/Lawyer-Portfolio.git
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open [http://localhost:3000](http://localhost:3000)**
+
+## 📱 Deployment
+
+The easiest way to deploy is using [Vercel](https://vercel.com):
+
+1. Push to GitHub
+2. Connect to Vercel
+3. Automatic deployment
+
+## 🎨 Customization
+
+- Update personal information in components
+- Modify services in `Services.tsx`
+- Change contact details in `Contact.tsx`
+- Update consultation charges in `Consultation.tsx`
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Built with ❤️ for Advocate Supriya's legal practice**
