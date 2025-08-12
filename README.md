@@ -1,5 +1,6 @@
 # Advocate Supriya - Legal Portfolio
 
+
 A professional, SEO-optimized portfolio website for Advocate Supriya, specializing in legal services at Patna High Court.
 
 ## 🏛️ Legal Services

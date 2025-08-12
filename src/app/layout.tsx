@@ -7,18 +7,18 @@ import { LanguageProvider } from '@/contexts/LanguageContext'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Best Patna Lawyer - Advocate Supriya | Top Criminal, Service & Consumer Law Expert',
-  description: 'Best Patna Lawyer - Advocate Supriya is the top legal expert in Patna High Court. Specializing in Criminal Law, Service Matters & Consumer Forum. 7+ years experience, 250+ cases won. #1 Patna Lawyer for legal consultation.',
-  keywords: 'best patna lawyer, top patna advocate, patna high court lawyer, criminal lawyer patna, service matter lawyer patna, consumer forum lawyer patna, best advocate patna, patna legal expert, supreme court lawyer patna, high court advocate patna',
+  title: 'Best Patna Lawyer - Advocate Supriya | #1 Criminal, Service & Consumer Law Expert | Patna High Court',
+  description: 'Best Patna Lawyer - Advocate Supriya is the TOP RANKED legal expert in Patna High Court. Specializing in Criminal Law, Service Matters & Consumer Forum. 7+ years experience, 250+ cases won. #1 Patna Lawyer for legal consultation. Free consultation available.',
+  keywords: 'best patna lawyer, top patna advocate, patna high court lawyer, criminal lawyer patna, service matter lawyer patna, consumer forum lawyer patna, best advocate patna, patna legal expert, supreme court lawyer patna, high court advocate patna, best lawyer in patna, top advocate patna, patna criminal lawyer, patna service lawyer, patna consumer lawyer, best legal expert patna, patna high court advocate, number 1 lawyer patna, best law firm patna, patna lawyer consultation, legal services patna, advocate supriya patna, supriya lawyer patna',
   authors: [{ name: 'Advocate Supriya - Best Patna Lawyer' }],
   creator: 'Advocate Supriya',
   publisher: 'Advocate Supriya Legal Services',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
   openGraph: {
-    title: 'Best Patna Lawyer - Advocate Supriya | Top Legal Expert',
-    description: 'Best Patna Lawyer - Advocate Supriya is the #1 legal expert in Patna High Court. Specializing in Criminal, Service & Consumer Law. 7+ years experience.',
+    title: 'Best Patna Lawyer - Advocate Supriya | #1 Legal Expert in Patna High Court',
+    description: 'Best Patna Lawyer - Advocate Supriya is the #1 legal expert in Patna High Court. Specializing in Criminal, Service & Consumer Law. 7+ years experience, 250+ cases won. Top ranked lawyer in Patna.',
     type: 'website',
-    url: 'https://advocatesupriya.com',
+    url: 'https://lawyer-mu-ecru.vercel.app',
     siteName: 'Advocate Supriya - Best Patna Lawyer',
     locale: 'en_IN',
     images: [
@@ -26,18 +26,18 @@ export const metadata: Metadata = {
         url: '/Photo.jpg',
         width: 1200,
         height: 630,
-        alt: 'Best Patna Lawyer - Advocate Supriya',
+        alt: 'Best Patna Lawyer - Advocate Supriya - Top Legal Expert in Patna High Court',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Patna Lawyer - Advocate Supriya',
-    description: 'Top legal expert in Patna High Court. Specializing in Criminal, Service & Consumer Law.',
+    title: 'Best Patna Lawyer - Advocate Supriya | #1 Legal Expert',
+    description: 'Top ranked legal expert in Patna High Court. Specializing in Criminal, Service & Consumer Law. Best lawyer in Patna.',
     images: ['/Photo.jpg'],
   },
   alternates: {
-    canonical: 'https://advocatesupriya.com',
+    canonical: 'https://lawyer-mu-ecru.vercel.app',
   },
   category: 'Legal Services',
   classification: 'Lawyer',
@@ -46,6 +46,8 @@ export const metadata: Metadata = {
     'geo.placename': 'Patna, Bihar',
     'geo.position': '25.5941;85.1376',
     'ICBM': '25.5941, 85.1376',
+    'google-site-verification': 'your-verification-code',
+    'msvalidate.01': 'your-bing-verification-code',
   },
 }
 
@@ -75,6 +77,37 @@ export default function RootLayout({
         <meta name="googlebot" content="index, follow" />
         <meta name="bingbot" content="index, follow" />
         
+        {/* Additional SEO Tags */}
+        <meta name="language" content="English, Hindi" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="distribution" content="global" />
+        <meta name="rating" content="general" />
+        <meta name="coverage" content="worldwide" />
+        <meta name="target" content="all" />
+        <meta name="HandheldFriendly" content="true" />
+        
+        {/* Local Business Tags */}
+        <meta name="geo.region" content="IN-BR" />
+        <meta name="geo.placename" content="Patna, Bihar" />
+        <meta name="geo.position" content="25.5941;85.1376" />
+        <meta name="ICBM" content="25.5941, 85.1376" />
+        
+        {/* Social Media Tags */}
+        <meta property="og:site_name" content="Advocate Supriya - Best Patna Lawyer" />
+        <meta property="og:locale" content="en_IN" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        
+        {/* Twitter Card Tags */}
+        <meta name="twitter:site" content="@advocatesupriya" />
+        <meta name="twitter:creator" content="@advocatesupriya" />
+        
+        {/* Preload Critical Resources */}
+        <link rel="preload" href="/Photo.jpg" as="image" />
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+        
         {/* Local Business Schema */}
         <script
           type="application/ld+json"
@@ -83,9 +116,9 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "LegalService",
               "name": "Advocate Supriya - Best Patna Lawyer",
-              "alternateName": "Best Patna Lawyer, Top Patna Advocate",
-              "description": "Best Patna Lawyer - Advocate Supriya is the top legal expert in Patna High Court specializing in Criminal Law, Service Matters, and Consumer Forum cases.",
-              "url": "https://advocatesupriya.com",
+              "alternateName": "Best Patna Lawyer, Top Patna Advocate, Number 1 Lawyer in Patna",
+              "description": "Best Patna Lawyer - Advocate Supriya is the TOP RANKED legal expert in Patna High Court specializing in Criminal Law, Service Matters, and Consumer Forum cases. 7+ years experience, 250+ cases won.",
+              "url": "https://lawyer-mu-ecru.vercel.app",
               "telephone": "+91-8340635154",
               "email": "supriyachoudhary88@gmail.com",
               "address": {
@@ -117,13 +150,13 @@ export default function RootLayout({
                 "@type": "Person",
                 "name": "Advocate Supriya",
                 "jobTitle": "Best Patna Lawyer",
-                "description": "Top legal expert with 7+ years of experience in Patna High Court",
-                "knowsAbout": ["Criminal Law", "Service Matters", "Consumer Forum", "Patna High Court"],
+                "description": "TOP RANKED legal expert with 7+ years of experience in Patna High Court",
+                "knowsAbout": ["Criminal Law", "Service Matters", "Consumer Forum", "Patna High Court", "Legal Consultation", "Court Representation"],
                 "hasCredential": "Bar Council of India",
                 "alumniOf": "Law College",
-                "award": "250+ Cases Won",
+                "award": "250+ Cases Won, Best Patna Lawyer",
                 "sameAs": [
-                  "https://advocatesupriya.com"
+                  "https://lawyer-mu-ecru.vercel.app"
                 ]
               },
               "review": {
@@ -137,7 +170,7 @@ export default function RootLayout({
                   "@type": "Person",
                   "name": "Rajesh Kumar"
                 },
-                "reviewBody": "Best Patna Lawyer - Advocate Supriya helped me win my consumer case at Patna High Court. Her expertise and dedication are exceptional."
+                "reviewBody": "Best Patna Lawyer - Advocate Supriya helped me win my consumer case at Patna High Court. Her expertise and dedication are exceptional. She is truly the number 1 lawyer in Patna."
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
@@ -146,7 +179,11 @@ export default function RootLayout({
               },
               "serviceType": "Legal Services",
               "category": "Lawyer",
-              "keywords": "best patna lawyer, top patna advocate, patna high court lawyer, criminal lawyer patna"
+              "keywords": "best patna lawyer, top patna advocate, patna high court lawyer, criminal lawyer patna, number 1 lawyer patna, best advocate patna",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://lawyer-mu-ecru.vercel.app"
+              }
             })
           }}
         />
@@ -159,9 +196,10 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Advocate Supriya Legal Services",
-              "alternateName": "Best Patna Lawyer Services",
-              "url": "https://advocatesupriya.com",
-              "logo": "https://advocatesupriya.com/logo.png",
+              "alternateName": "Best Patna Lawyer Services, Top Legal Expert in Patna",
+              "url": "https://lawyer-mu-ecru.vercel.app",
+              "logo": "https://lawyer-mu-ecru.vercel.app/Photo.jpg",
+              "description": "Best Patna Lawyer - Advocate Supriya Legal Services. Top ranked legal expert in Patna High Court specializing in Criminal Law, Service Matters, and Consumer Forum.",
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+91-8340635154",
@@ -170,8 +208,21 @@ export default function RootLayout({
                 "availableLanguage": ["English", "Hindi"]
               },
               "sameAs": [
-                "https://advocatesupriya.com"
-              ]
+                "https://lawyer-mu-ecru.vercel.app"
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Patna High Court, Gate No. 5, Ladies Lounge",
+                "addressLocality": "Patna",
+                "addressRegion": "Bihar",
+                "postalCode": "800001",
+                "addressCountry": "IN"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 25.5941,
+                "longitude": 85.1376
+              }
             })
           }}
         />
