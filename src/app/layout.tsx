@@ -103,6 +103,9 @@ export default function RootLayout({
         <meta name="twitter:site" content="@advocatesupriya" />
         <meta name="twitter:creator" content="@advocatesupriya" />
         
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="Lgd4LshLFo2mVmXqJDHmLHdVwLn0sh-UcrnlljQOWUs" />
+        
         {/* Preload Critical Resources */}
         <link rel="preload" href="/Photo.jpg" as="image" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
