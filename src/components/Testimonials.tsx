@@ -38,7 +38,7 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="text-4xl font-bold text-center mb-12 text-gray-800 dark:text-gray-100 relative"
         >
-          Client Testimonials
+          Client Testimonials - <span className="text-blue-600 dark:text-blue-400">Best Patna Lawyer</span>
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded"></div>
         </motion.h2>
 
@@ -92,7 +92,7 @@ const Testimonials = () => {
         >
           <div className="bg-blue-50 dark:bg-blue-900/20 rounded-2xl p-8 border border-blue-200 dark:border-blue-800 max-w-3xl mx-auto">
             <h4 className="text-2xl font-bold text-blue-800 dark:text-blue-200 mb-4">
-              🏛️ Why Choose Advocate Supriya?
+              🏛️ Why Choose Advocate Supriya - Best Patna Lawyer?
             </h4>
             <div className="grid md:grid-cols-3 gap-6 text-left">
               <div className="text-center">
@@ -107,7 +107,7 @@ const Testimonials = () => {
                   <span className="text-2xl">🏛️</span>
                 </div>
                 <h5 className="font-semibold text-blue-800 dark:text-blue-200 mb-2">Location</h5>
-                <p className="text-sm text-blue-700 dark:text-blue-300">Patna High Court office</p>
+                <p className="text-sm text-blue-700 dark:text-blue-300"><strong>Patna High Court</strong> office - Best Patna Lawyer</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-3">

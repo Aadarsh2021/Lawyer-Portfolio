@@ -26,6 +26,10 @@ const Hero = () => {
             >
               {t('advocate')}{' '}
               <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Supriya</span>
+              <br />
+              <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blue-600 dark:text-blue-400">
+                Best Patna Lawyer
+              </span>
             </motion.h1>
             
             <motion.p

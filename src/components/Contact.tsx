@@ -118,7 +118,7 @@ const Contact = () => {
           className="text-center mb-12 sm:mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-            {t('contact_us')}
+            {t('contact_us')} - <span className="text-blue-600 dark:text-blue-400">Best Patna Lawyer</span>
           </h2>
           <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             {t('contact_description')}

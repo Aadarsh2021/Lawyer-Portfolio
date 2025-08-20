@@ -38,7 +38,7 @@ const Services = () => {
           viewport={{ once: true }}
           className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 text-gray-800 dark:text-gray-100 relative"
         >
-          {t('legal_services')}
+          {t('legal_services')} - <span className="text-blue-600 dark:text-blue-400">Patna High Court</span>
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 sm:w-20 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded"></div>
         </motion.h2>
 

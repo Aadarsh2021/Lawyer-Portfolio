@@ -51,7 +51,7 @@ const About = () => {
             className="space-y-8"
           >
             <h3 className="text-3xl font-bold text-gray-900 dark:text-white">
-              {t('advocate_supriya')}
+              {t('advocate_supriya')} - <span className="text-blue-600 dark:text-blue-400">Best Patna Lawyer</span>
             </h3>
 
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">

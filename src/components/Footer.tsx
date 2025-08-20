@@ -27,7 +27,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <h3 className="text-xl sm:text-2xl font-bold text-blue-600 dark:text-blue-400 mb-4">
-              {t('advocate_supriya')}
+              {t('advocate_supriya')} - <span className="text-gray-900 dark:text-white">Best Patna Lawyer</span>
             </h3>
             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6 max-w-md">
               {t('expert_legal_services_footer')}

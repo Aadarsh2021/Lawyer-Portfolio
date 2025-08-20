@@ -42,7 +42,7 @@ const Consultation = () => {
           viewport={{ once: true }}
           className="text-4xl font-bold text-center mb-12 text-gray-800 dark:text-gray-100 relative"
         >
-          Consultation Charges
+          Consultation Charges - <span className="text-blue-600 dark:text-blue-400">Best Patna Lawyer</span>
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-blue-500 to-blue-600 rounded"></div>
         </motion.h2>
 
@@ -53,8 +53,8 @@ const Consultation = () => {
           viewport={{ once: true }}
           className="text-xl text-center text-gray-600 dark:text-gray-300 mb-16 max-w-3xl mx-auto"
         >
-          Get expert legal consultation from Advocate Supriya. All consultations are conducted 
-          at Patna High Court with professional expertise and personalized attention.
+          Get expert legal consultation from <strong>Advocate Supriya - Best Patna Lawyer</strong>. All consultations are conducted 
+          at <strong>Patna High Court</strong> with professional expertise and personalized attention.
         </motion.p>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
