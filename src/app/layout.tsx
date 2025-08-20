@@ -103,8 +103,15 @@ export default function RootLayout({
         <meta name="twitter:site" content="@advocatesupriya" />
         <meta name="twitter:creator" content="@advocatesupriya" />
         
+        {/* Google Analytics - G-HHVS97YJNP */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHVS97YJNP"></script>
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-HHVS97YJNP');` }} />
+        
         {/* Google Search Console Verification */}
         <meta name="google-site-verification" content="oNXSNTCT8bkYSdN_2lQTvlmsE72LjNPWKF9uNIR5ZxY" />
+        
+        {/* Bing Webmaster Tools Verification */}
+        <meta name="msvalidate.01" content="your-bing-verification-code" />
         
         {/* Preload Critical Resources */}
         <link rel="preload" href="/Photo.jpg" as="image" />

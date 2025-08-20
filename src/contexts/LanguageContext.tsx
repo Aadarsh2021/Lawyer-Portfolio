@@ -45,6 +45,7 @@ const translations = {
     'consumer_forum': 'Consumer Forum',
     'criminal_description': 'Expert representation in criminal cases at Patna High Court. Handling all types of criminal matters with dedication and expertise.',
     'service_description': 'Specialized in service law cases including government employment disputes, promotions, and service benefits at Patna High Court.',
+    'consumer_description': 'Expert representation in consumer protection cases, ensuring clients\' rights are protected at Patna High Court.',
     'patna_high_court_note': 'All cases handled at Patna High Court',
     
     // Consultation Section
