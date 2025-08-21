@@ -11,15 +11,18 @@ export const metadata: Metadata = {
   description: 'Best Patna Lawyer - Advocate Supriya is the TOP RANKED legal expert in Patna High Court. Specializing in Criminal Law, Service Matters & Consumer Forum. 7+ years experience, 250+ cases won. #1 Patna Lawyer for legal consultation. Free consultation available.',
   keywords: 'best patna lawyer, top patna advocate, patna high court lawyer, criminal lawyer patna, service matter lawyer patna, consumer forum lawyer patna, best advocate patna, patna legal expert, supreme court lawyer patna, high court advocate patna, best lawyer in patna, top advocate patna, patna criminal lawyer, patna service lawyer, patna consumer lawyer, best legal expert patna, patna high court advocate, number 1 lawyer patna, best law firm patna, patna lawyer consultation, legal services patna, advocate supriya patna, supriya lawyer patna',
   authors: [{ name: 'Advocate Supriya - Best Patna Lawyer' }],
-  creator: 'Advocate Supriya',
+  creator: 'Advocate Supriya Legal Services',
   publisher: 'Advocate Supriya Legal Services',
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
-      openGraph: {
-      title: 'Patna High Court - Best Patna Lawyer Advocate Supriya | #1 Legal Expert',
+  applicationName: 'Advocate Supriya Legal Services',
+  generator: 'Advocate Supriya Legal Services',
+  referrer: 'origin-when-cross-origin',
+  openGraph: {
+    title: 'Patna High Court - Best Patna Lawyer Advocate Supriya | #1 Legal Expert',
     description: 'Best Patna Lawyer - Advocate Supriya is the #1 legal expert in Patna High Court. Specializing in Criminal, Service & Consumer Law. 7+ years experience, 250+ cases won. Top ranked lawyer in Patna.',
     type: 'website',
     url: 'https://lawyer-mu-ecru.vercel.app',
-    siteName: 'Advocate Supriya - Best Patna Lawyer',
+    siteName: 'Advocate Supriya Legal Services',
     locale: 'en_IN',
     images: [
       {
@@ -46,8 +49,12 @@ export const metadata: Metadata = {
     'geo.placename': 'Patna, Bihar',
     'geo.position': '25.5941;85.1376',
     'ICBM': '25.5941, 85.1376',
-    'google-site-verification': 'your-verification-code',
+    'google-site-verification': 'oNXSNTCT8bkYSdN_2lQTvlmsE72LjNPWKF9uNIR5ZxY',
     'msvalidate.01': 'your-bing-verification-code',
+    'author': 'Advocate Supriya Legal Services',
+    'copyright': 'Advocate Supriya Legal Services',
+    'organization': 'Advocate Supriya Legal Services',
+    'web_author': 'Advocate Supriya Legal Services',
   },
 }
 
@@ -119,6 +126,46 @@ export default function RootLayout({
         <link rel="preload" href="/Photo.jpg" as="image" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+        
+        {/* Professional Branding - Hide Vercel */}
+        <meta name="application-name" content="Advocate Supriya Legal Services" />
+        <meta name="apple-mobile-web-app-title" content="Advocate Supriya Legal Services" />
+        <meta name="msapplication-TileColor" content="#2563eb" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        <meta name="theme-color" content="#2563eb" />
+        
+        {/* Hide Vercel Branding */}
+        <meta name="generator" content="Advocate Supriya Legal Services" />
+        <meta name="author" content="Advocate Supriya Legal Services" />
+        <meta name="copyright" content="Advocate Supriya Legal Services" />
+        <meta name="organization" content="Advocate Supriya Legal Services" />
+        
+        {/* Complete Vercel Branding Removal */}
+        <meta name="host" content="Advocate Supriya Legal Services" />
+        <meta name="server" content="Advocate Supriya Legal Services" />
+        <meta name="platform" content="Advocate Supriya Legal Services" />
+        <meta name="framework" content="Advocate Supriya Legal Services" />
+        <meta name="deployment" content="Advocate Supriya Legal Services" />
+        
+        {/* Business Identity */}
+        <meta name="business:name" content="Advocate Supriya Legal Services" />
+        <meta name="business:type" content="Legal Services" />
+        <meta name="business:location" content="Patna, Bihar, India" />
+        <meta name="business:specialization" content="Criminal Law, Service Matters, Consumer Forum" />
+        
+        {/* Advanced Branding Control */}
+        <meta name="web_author" content="Advocate Supriya Legal Services" />
+        <meta name="designer" content="Advocate Supriya Legal Services" />
+        <meta name="developer" content="Advocate Supriya Legal Services" />
+        <meta name="publisher" content="Advocate Supriya Legal Services" />
+        <meta name="creator" content="Advocate Supriya Legal Services" />
+        <meta name="owner" content="Advocate Supriya Legal Services" />
+        
+        {/* Hide Technical Details */}
+        <meta name="technology" content="Advocate Supriya Legal Services" />
+        <meta name="infrastructure" content="Advocate Supriya Legal Services" />
+        <meta name="hosting" content="Advocate Supriya Legal Services" />
+        <meta name="cdn" content="Advocate Supriya Legal Services" />
         
         {/* Local Business Schema */}
         <script
